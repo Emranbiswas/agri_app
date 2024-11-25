@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
-
-
+import tensorflow as tf
+from tensorflow.keras.preprocessing import image
 # Title of the application
 st.title("Rice Leaf Disease Detection")
 
