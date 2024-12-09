@@ -84,7 +84,7 @@ if uploaded_file is not None:
         predicted_disease = disease_labels[predicted_label]
 
     st.subheader(f"Predicted Disease: {predicted_disease}")
-    st.text(f"Confidence Scores: {predictions.numpy()}")
+    #st.text(f"Confidence Scores: {predictions.numpy()}")
 
     # Display treatment suggestions based on predicted disease
     st.subheader("Treatment Suggestions:")
